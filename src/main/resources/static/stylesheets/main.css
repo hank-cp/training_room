@@ -1,0 +1,101 @@
+/*
+ * Base structure
+ */
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    background-color: #F7F7F7;
+}
+
+select[readonly] option, select[readonly] optgroup {
+    display: none;
+}
+
+.bs-docs-nav .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
+
+.form-action {
+    margin-bottom: 10px;
+}
+
+.form-group.required .control-label:after {
+    content: "*";
+    color: red;
+    margin-left: 5px;
+}
+
+.form-control[readonly].datePicker {
+    background: white;
+    z-index: 0;
+}
+
+.form-control[readonly].select {
+    background: white;
+    z-index: 0;
+}
+
+.grid-container {
+    overflow-x: auto;
+}
+
+.img-resp {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.img-resp img {
+    width: 100%;
+}
+
+.text-hidden {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.column-gutter0 .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.unread_badge {
+    background: #f00;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    margin-bottom: 3px;
+}
+
+.btn-space {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.btn-mini-icon {
+    margin-right: 3px;
+    margin-left: 3px;
+}
+
+.infinite-width {
+    max-width: none;
+}
+
+/** spinning */
+.glyphicon-refresh-animate {
+    -animation: spin .7s infinite linear;
+    -webkit-animation: spin2 .7s infinite linear;
+}
+
+@-webkit-keyframes spin2 {
+    from { -webkit-transform: rotate(0deg);}
+    to { -webkit-transform: rotate(360deg);}
+}
+
+@keyframes spin {
+    from { transform: scale(1) rotate(0deg);}
+    to { transform: scale(1) rotate(360deg);}
+}

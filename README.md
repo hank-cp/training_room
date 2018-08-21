@@ -39,3 +39,19 @@
 # 第三阶段, 界面UI:
 * 参考例子实现
 * 可以适当改良优化, 使界面尽量看起来美观
+
+# 参考文档
+* jQuery: https://api.jquery.com/
+* JqGrid
+   * Docs: http://www.trirand.com/jqgridwiki/doku.php?id=wiki:jqgriddocs
+   * Demo: http://www.trirand.com/blog/jqgrid/jqgrid.html
+   * Demo(Bootstrap): http://www.guriddo.net/demo/bootstrap/
+   * New Docs: http://www.guriddo.net/documentation/guriddo/javascript/
+* Bootstrap:
+   * 官方Docs: http://getbootstrap.com/css/
+* Freemarker: http://freemarker.org/docs/ref.html
+* Spring Core: http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/
+* Spring Boot: http://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/
+* Spring Boot 参考配置: http://docs.spring.io/spring-boot/docs/1.2.8.RELEASE/reference/htmlsingle/#appendix
+* Spring Data: http://docs.spring.io/spring-data/jpa/docs/1.8.2.RELEASE/reference/html/
+* JPA (Hibernate): http://docs.jboss.org/hibernate/entitymanager/3.6/reference/en/html/

@@ -16,8 +16,10 @@
     * [Gradle 2.4](https://gradle.org/next-steps/?version=2.14.1&format=bin)
     * Git
     * 框架工程(https://github.com/hank-cp/training_room)
-* 用Git把框架工程下到本地
-  * `git clone https://github.com/hank-cp/training_room`
+* Pull框架工程到本地
+  * Folk本Repository
+  * `git clone git@github.com:{your_name}/training_room.git`
+  * [需要在本地先配置好SSH-KEY](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)
 * 导入IDEA
   * Import Project
   * 选择Gradle

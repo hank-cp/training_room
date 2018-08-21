@@ -1,5 +1,5 @@
 # Java后台开发练习实测
-请在两周完成以下需求
+* 本项目用于Java后台开发实训, 目标是评估候选人的相关技术水平, 逻辑思维, 自学能力, 动手解决问题能力等等综合素质
 
 # 需求描述
 开发一个图书列表查询页面
@@ -12,7 +12,7 @@
 * 安装软件:
     * [JAVA 1.8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
     * [Intellj IDEA](https://www.jetbrains.com/idea/download)
-    * [MySQL 5.7](https://dev.mysql.com/downloads/mysql/)
+    * [MySQL 5.7](https://dev.mysql.com/downloads/mysql/5.7.html#downloads)
     * [Gradle 2.4](https://gradle.org/next-steps/?version=2.14.1&format=bin)
     * Git
     * 框架工程(https://github.com/hank-cp/training_room)
